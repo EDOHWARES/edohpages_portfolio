@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+// import { Input } from "@/components/ui/input";
+// import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -444,7 +444,7 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <p className="text-gray-300 mb-6 italic leading-relaxed">
-                    "{testimonial.quote}"
+                    &quot;{testimonial.quote}&quot;
                   </p>
                   <div>
                     <div className="font-semibold text-white">
@@ -529,9 +529,9 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                I'm a frontend developer with a passion for creating landing
-                pages that don't just look good—they convert. With over 5 years
-                of experience in the Web2 and Web3 space, I've helped startups
+                I&apos;m a frontend developer with a passion for creating landing
+                pages that don&apos;t just look good—they convert. With over 5 years
+                of experience in the Web2 and Web3 space, I&apos;ve helped startups
                 generate millions in revenue through strategic design and
                 conversion optimization.
               </p>
@@ -573,7 +573,7 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-gradient-to-r from-green-500/20 to-cyan-500/20 text-green-400 border-green-500/30">
-              Let's Work Together
+              Let&apos;s Work Together
             </Badge>
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
@@ -585,7 +585,7 @@ export default function Portfolio() {
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Let's discuss your project and create a landing page that converts
+              Let&apos;s discuss your project and create a landing page that converts
               visitors into customers.
             </p>
           </div>
