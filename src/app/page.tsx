@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-// import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -23,6 +22,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -529,11 +529,11 @@ export default function Portfolio() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                I&apos;m a frontend developer with a passion for creating landing
-                pages that don&apos;t just look good—they convert. With over 5 years
-                of experience in the Web2 and Web3 space, I&apos;ve helped startups
-                generate millions in revenue through strategic design and
-                conversion optimization.
+                I&apos;m a frontend developer with a passion for creating
+                landing pages that don&apos;t just look good—they convert. With
+                over 5 years of experience in the Web2 and Web3 space, I&apos;ve
+                helped startups generate millions in revenue through strategic
+                design and conversion optimization.
               </p>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                 My approach combines data-driven insights with cutting-edge
@@ -585,8 +585,8 @@ export default function Portfolio() {
               </span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Let&apos;s discuss your project and create a landing page that converts
-              visitors into customers.
+              Let&apos;s discuss your project and create a landing page that
+              converts visitors into customers.
             </p>
           </div>
 
@@ -600,28 +600,42 @@ export default function Portfolio() {
             <p className="text-gray-400 mb-6">Or reach out directly:</p>
             <div className="flex justify-center space-x-6">
               <Link
-                href="#"
+                href="mailto:edohemmanuel4real@gmail.com"
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 <Mail className="h-6 w-6" />
               </Link>
               <Link
-                href="#"
+                href="https://x.com/edohpages"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 <Twitter className="h-6 w-6" />
               </Link>
               <Link
-                href="#"
+                href="https://linkedin.com/in/0xedohwarez"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
               </Link>
               <Link
-                href="#"
+                href="https://github.com/EDOHWARES"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 <Github className="h-6 w-6" />
+              </Link>
+              <Link
+                href="https://wa.me/2347048126687"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-cyan-400 transition-colors"
+              >
+                <FaWhatsapp size={24} />
               </Link>
             </div>
           </div>
