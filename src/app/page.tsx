@@ -239,7 +239,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8"
+        className="relative min-h-screen flex items-center mt-[6rem] md:mt-auto justify-center px-4 sm:px-6 lg:px-8"
       >
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-cyan-900/20"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(120,119,198,0.1),transparent_50%)]"></div>
